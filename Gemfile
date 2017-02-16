@@ -37,12 +37,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 group :development, :test do
-	#gem 'sqlite3'
-	#gem 'byebug'
+	gem 'sqlite3'
+	gem 'byebug'
 end
 
 group :production do
-	#gem 'pg'
-	#gem 'rails_12factor'
+	gem 'pg'
+	gem 'rails_12factor'
 end
 #gem 'rails_12factor', group: :production
