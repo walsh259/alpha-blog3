@@ -38,10 +38,11 @@ gem 'jquery-rails'
 # gem 'debugger'
 group :development, :test do
 	gem 'sqlite3'
-	gem 'byebug'
+	g#em 'byebug'
 end
 
 group :production do
-	gem 'pg'
-	gem 'rails_12factor'
+	#gem 'pg'
+	#gem 'rails_12factor'
 end
+#gem 'rails_12factor', group: :production
